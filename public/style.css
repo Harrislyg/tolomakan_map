@@ -1,0 +1,141 @@
+@import 'https://fonts.googleapis.com/css?family=Luckiest+Guy|Arya|Reem+Kufi';
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+  font-family: 'Reem Kufi', sans-serif;
+}
+#map {
+	display: none;
+	height: 100%;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+.content {
+	padding-bottom:400px; /* Height of the footer element */
+}
+#footer {
+	width:100%;
+  background: url("images/footer.png");
+  background-size: 100% auto;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+	height:500px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+.btn-fam{
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 15px;
+  border-radius: 10px;
+  border: #ccc;
+  background-color: rgb(237, 54, 28);
+  width: 150px;
+  color: white;
+  padding: 10px;
+}
+p{
+font-size: 16px !important;
+	font-family: 'Reem Kufi', sans-serif;
+
+}
+.thumbsize{
+  width: 800px;
+}
+
+.btn-color{
+  background-color:rgb(237, 54, 28) !important;
+  color:white !important;
+  border: white;
+}
+
+.color {
+  color: rgb(237, 54, 28);
+}
+
+.font-fam {
+  font-family: 'Reem Kufi', sans-serif;
+}
+.big-font{
+  font-size: 17px;
+}
+.bigger-font{
+  font-size: 20px;
+	font-family: 'Reem Kufi', sans-serif;
+
+}
+.btn {
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+.jumbotron{
+  background-color: white !important;
+  text-align: center !important;
+  align-items: center !important;
+  align-content: center !important;
+}
+
+#name .page-scroll {
+  color: black;
+}
+#login_link {
+  visibility: hidden;
+}
+#user_link {
+  visibility: hidden;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand, #dropdown-toggle  {
+  color:  rgb(237, 54, 28);
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px;
+}
+#custom-bootstrap-menu.navbar-default, #dropdown-toggle  {
+  background-color: rgba(255, 255, 255, 0.73);
+  border: none;
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  border-bottom: 2px solid rgb(237, 54, 28);
+  border-radius: 30%;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a, #dropdown-toggle {
+  color:  rgb(237, 54, 28);
+  border-bottom: rgb(237, 54, 28);
+  background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus,
+#dropdown-toggle {
+  color:black;
+  /*background-color: rgb(237, 54, 28);*/
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus,
+#dropdown-toggle  {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(131, 28, 28, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+  border-color: rgb(237, 54, 28);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus,
+#dropdown-toggle  {
+  background-color: #ffffff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar, #dropdown-toggle  {
+  background-color: rgb(237, 54, 28);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar, #dropdown-toggle  {
+  background-color: rgb(237, 54, 28);
+}
